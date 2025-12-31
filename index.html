@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aniket Humbe — Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="nav-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Aniket Humbe<span style="color:var(--primary);">.</span></a>
+    <button id="nav-toggle"><i class="fas fa-bars"></i></button>
+    <nav id="nav" class="nav">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="about.html" class="nav-link">Journey</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero" style="background-image: url('New Project.png');">
+  <div class="overlay"></div>
+  
+  <div class="container hero-content">
+    <div class="eyebrow">
+      <i class="fas fa-university"></i> IIT Madras · IVB · Olympiad Ranker
+    </div>
+    <h1><span class="highlight">Aspiring Technologist</span> <br><span class="highlight">& Entrepreneur</span></h1>
+    
+    <p class="lead">
+      Building scalable technology for social & environmental impact. 
+      Data Science Fellow at IIT Madras & Venture Builder at IVB.
+    </p>
+
+    <div class="btn-group">
+      <a class="btn primary" href="projects.html">
+        <i class="fas fa-code"></i> View Projects
+      </a>
+      <a class="btn ghost" href="about.html">
+        <i class="fas fa-user-astronaut"></i> My Journey
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section container">
+  <div class="text-center">
+    <h2 class="section-title">What I Do</h2>
+    <p class="muted" style="max-width: 600px; margin: 0 auto;">Combining technical expertise in Data Science with the strategic vision of Entrepreneurship.</p>
+  </div>
+
+  <div class="grid-3">
+    <div class="feature-card">
+      <div class="icon-box">
+        <i class="fas fa-brain"></i>
+      </div>
+      <h3>Data Science</h3>
+      <p class="muted">Python, SQL, and Machine Learning models to derive insights and forecast trends (e.g., Stock Market Prediction).</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-box">
+        <i class="fas fa-rocket"></i>
+      </div>
+      <h3>Venture Building</h3>
+      <p class="muted">Developing business strategies and startup ecosystems at IVB. Pitching winner for "CyberShield".</p>
+    </div>
+
+    <div class="feature-card">
+      <div class="icon-box">
+        <i class="fas fa-leaf"></i>
+      </div>
+      <h3>Social Impact</h3>
+      <p class="muted">Creating tech for good, like the "SuryaGrid" solar solution and District Fellowship rural research.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section contact-section">
+  <div class="container">
+    <h2 class="section-title">Let's Connect</h2>
+    <p class="muted">Open for internships, technical roles, and collaborations.</p>
+
+    <div class="social-links">
+      <a href="mailto:humbeaniket2006@gmail.com" class="social-btn" aria-label="Email">
+        <i class="fas fa-envelope"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/aniket-ankush-humbe-26124b384/" target="_blank" class="social-btn" aria-label="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="tel:+919307152210" class="social-btn" aria-label="Phone">
+        <i class="fas fa-phone"></i>
+      </a>
+      <a href="https://www.instagram.com/aniket_h1/" target="_blank" class="social-btn" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2025 Aniket Humbe. Built with <i class="fas fa-heart" style="color: var(--primary);"></i> & Code.</p>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('nav-toggle');
+  const nav = document.getElementById('nav');
+  navToggle.addEventListener('click', () => nav.classList.toggle('open'));
+</script>
+
+</body>
+</html>

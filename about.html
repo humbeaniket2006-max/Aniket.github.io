@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Journey — Aniket Humbe</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header class="nav-header" style="background: #1a202c; position:sticky;">
+  <div class="container nav-wrap">
+    <a class="brand" href="index.html">Aniket Humbe<span style="color:var(--primary);">.</span></a>
+    <button id="nav-toggle"><i class="fas fa-bars"></i></button>
+    <nav id="nav" class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="about.html" class="nav-link active">Journey</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+    </nav>
+  </div>
+</header>
+
+<section class="page-header-bg bg-journey">
+  <div class="container">
+    <h1 class="section-title" style="color:white; border-color:var(--primary);">My Journey</h1>
+    <p class="muted">Education, Experience & Leadership.</p>
+  </div>
+</section>
+
+<section class="section container">
+  
+  <div class="grid-3" style="grid-template-columns: 1fr 1fr; align-items: start;">
+    
+    <div>
+      <h2 style="margin-bottom: 20px;"><i class="fas fa-graduation-cap" style="color:var(--primary);"></i> Education</h2>
+      
+      <div style="border-left: 2px solid #eee; padding-left: 20px; margin-bottom: 30px;">
+        <h3>IIT Madras</h3>
+        <p class="muted">2025 – 2029 (Expected)</p>
+        <p><strong>BS in Data Science & Applications</strong></p>
+        <p class="muted" style="font-size:0.9rem">Python, Statistics, ML Foundations</p>
+      </div>
+
+      <div style="border-left: 2px solid #eee; padding-left: 20px; margin-bottom: 30px;">
+        <h3>Institute of Venture Building</h3>
+        <p class="muted">2025 – 2028 (Expected)</p>
+        <p><strong>UG in Entrepreneurship & Software Dev</strong></p>
+        <p class="muted" style="font-size:0.9rem">Product Dev, Startup Strategy</p>
+      </div>
+
+      <div style="border-left: 2px solid #eee; padding-left: 20px; margin-bottom: 30px;">
+        <h3>JNV Tuljapur</h3>
+        <p class="muted">2018 – 2025</p>
+        <p>Schooling (Class 6th–12th) | CBSE</p>
+      </div>
+    </div>
+
+    <div>
+      <h2 style="margin-bottom: 20px;"><i class="fas fa-briefcase" style="color:var(--primary);"></i> Experience</h2>
+
+      <div style="border-left: 2px solid #eee; padding-left: 20px; margin-bottom: 30px;">
+        <h3>AI Training Freelancer</h3>
+        <p class="muted">Scaler | Dec 2025 – Present</p>
+        <p>Evaluated AI responses for accuracy. Provided feedback to improve model performance in production environment.</p>
+      </div>
+
+      <div style="border-left: 2px solid #eee; padding-left: 20px; margin-bottom: 30px;">
+        <h3>District Fellow</h3>
+        <p class="muted">FLAME University | Apr 2024 – Aug 2024</p>
+        <p>Conducted field research documenting rural culture. Gathered qualitative data and developed comprehensive reports.</p>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top: 60px;">
+    <h2 class="section-title">Leadership</h2>
+    <div class="grid-3">
+      <div class="feature-card">
+        <div class="icon-box"><i class="fas fa-flag"></i></div>
+        <h3>House Captain</h3>
+        <p class="muted">JNV Tuljapur</p>
+        <p style="font-size:0.9rem;">Led house activities and managed 100+ students across sports and academics.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-box"><i class="fas fa-users"></i></div>
+        <h3>NCC Leader</h3>
+        <p class="muted">2020 – 2022</p>
+        <p style="font-size:0.9rem;">Led a team of 25+ cadets in drills and parades. Maintained high discipline.</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon-box"><i class="fas fa-chalkboard-teacher"></i></div>
+        <h3>Class Monitor</h3>
+        <p class="muted">Multiple Years</p>
+        <p style="font-size:0.9rem;">Served as liaison between 40+ students and teachers.</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<footer>
+  <div class="container"><p>© 2025 Aniket Humbe</p></div>
+</footer>
+
+<script>
+  document.getElementById('nav-toggle').addEventListener('click', () => document.getElementById('nav').classList.toggle('open'));
+</script>
+</body>
+</html>
